@@ -1,33 +1,48 @@
 /**********/
 /* Header */
 /**********/
-
+.header-cont {
+  border: 2px solid black;
+}
 
 /***********/
 /* Welcome */
 /***********/
-
+.welcome-cont {
+  border: 2px solid black;
+}
 
 /*********/
 /* About */
 /*********/
-
+.about-cont {
+  border: 2px solid black;
+}
 
 /**********/
 /* Skills */
 /**********/
-
+.skills-cont {
+  border: 2px solid black;
+}
 
 /************/
 /* Projects */
 /************/
-
+.projects-cont {
+  border: 2px solid black;
+}
 
 /***********/
 /* Contact */
 /***********/
-
+.contact-cont {
+  border: 2px solid black;
+}
 
 /**********/
 /* Footer */
 /**********/
+.footer-cont {
+  border: 2px solid black;
+}

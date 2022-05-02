@@ -9,7 +9,6 @@ import Welcome from "./components/Welcome"
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
       <Header />
       <Welcome />
       <About />

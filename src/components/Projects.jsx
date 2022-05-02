@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <div>Projects</div>
+    <div className="projects-cont">Projects</div>
   )
 }
 
