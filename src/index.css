@@ -1,5 +1,6 @@
-body {
-  position: relative;
+section {
+  scroll-margin-top: 10vh;
+  height: 60vh;
 }
 
 /**********/
@@ -7,7 +8,6 @@ body {
 /**********/
 .header-cont {
   border: 2px solid black;
-  height: 25vh;
 }
 .header-list {
   display: flex;
@@ -21,7 +21,9 @@ body {
 /***********/
 .welcome-cont {
   border: 2px solid black;
-  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*********/
@@ -29,7 +31,6 @@ body {
 /*********/
 .about-cont {
   border: 2px solid black;
-  height: 25vh;
 }
 
 /**********/
@@ -37,7 +38,6 @@ body {
 /**********/
 .skills-cont {
   border: 2px solid black;
-  height: 25vh;
 }
 
 /************/
@@ -45,7 +45,6 @@ body {
 /************/
 .projects-cont {
   border: 2px solid black;
-  height: 25vh;
 }
 
 /***********/
@@ -53,14 +52,20 @@ body {
 /***********/
 .contact-cont {
   border: 2px solid black;
-  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-cont div {
+  margin: 2vh 0;
 }
 
 /**********/
 /* Footer */
 /**********/
 .footer-cont {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
 }
@@ -69,3 +74,4 @@ body {
   min-height: 15px;
   margin-right: 1vh;
 }
+
