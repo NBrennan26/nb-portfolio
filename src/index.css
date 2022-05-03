@@ -39,12 +39,18 @@ section {
 .skills-cont {
   border: 2px solid black;
 }
+.skill-tile {
+  border: 2px solid blue;
+}
 
 /************/
 /* Projects */
 /************/
 .projects-cont {
   border: 2px solid black;
+}
+.project-tile {
+  border: 2px solid red;
 }
 
 /***********/
@@ -74,4 +80,3 @@ section {
   min-height: 15px;
   margin-right: 1vh;
 }
-

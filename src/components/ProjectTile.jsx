@@ -1,7 +1,13 @@
-function ProjectTile() {
+function ProjectTile({ project }) {
   return (
-    <div>Project Tile</div>
-  )
+    <div className="project-tile">
+      <p>{project.title}</p>
+      <p>{project.description}</p>
+      <p>{project.link}</p>
+      <p>{project.github}</p>
+      <p>{project.photo}</p>
+    </div>
+  );
 }
 
-export default ProjectTile
+export default ProjectTile;

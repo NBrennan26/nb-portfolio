@@ -1,7 +1,10 @@
-function SkillTile() {
+function SkillTile({ skill }) {
   return (
-    <div>Skill Tile</div>
-  )
+    <div className="skill-tile">
+      <p>{skill.title}</p>
+      <p>{skill.icon}</p>
+    </div>
+  );
 }
 
-export default SkillTile
+export default SkillTile;

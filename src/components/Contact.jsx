@@ -27,12 +27,12 @@ function Contact() {
           <FiMail size={80} />
         </a>
       </div>
-      <div>
+      {/* <div>
         <a href="" download="NickBrennanResume">
           <FaFileDownload />
           Resume
         </a>
-      </div>
+      </div> */}
     </section>
   );
 }
