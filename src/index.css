@@ -38,6 +38,20 @@ section {
 /**********/
 .skills-cont {
   border: 2px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.skill-block {
+  display: flex;
+  flex-direction: column;
+
+}
+.skill-block-title {
+  font-weight: 700;
+}
+.skill-block-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .skill-tile {
   border: 2px solid blue;
