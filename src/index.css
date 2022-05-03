@@ -3,6 +3,13 @@
 /**********/
 .header-cont {
   border: 2px solid black;
+  height: 25vh;
+}
+.header-list {
+  display: flex;
+}
+.header-item {
+  margin: 2vh;
 }
 
 /***********/
@@ -10,6 +17,7 @@
 /***********/
 .welcome-cont {
   border: 2px solid black;
+  height: 25vh;
 }
 
 /*********/
@@ -17,6 +25,7 @@
 /*********/
 .about-cont {
   border: 2px solid black;
+  height: 25vh;
 }
 
 /**********/
@@ -24,6 +33,7 @@
 /**********/
 .skills-cont {
   border: 2px solid black;
+  height: 25vh;
 }
 
 /************/
@@ -31,6 +41,7 @@
 /************/
 .projects-cont {
   border: 2px solid black;
+  height: 25vh;
 }
 
 /***********/
@@ -38,6 +49,7 @@
 /***********/
 .contact-cont {
   border: 2px solid black;
+  height: 25vh;
 }
 
 /**********/
@@ -45,4 +57,5 @@
 /**********/
 .footer-cont {
   border: 2px solid black;
+  height: 25vh;
 }

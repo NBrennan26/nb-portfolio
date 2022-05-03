@@ -1,7 +1,9 @@
 function Footer() {
   return (
-    <div className="footer-cont">Footer</div>
-  )
+    <footer className="footer-cont">
+      <a href="#home">Back to top</a>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

@@ -1,6 +1,6 @@
 function Welcome() {
   return (
-    <div className="welcome-cont">Welcome</div>
+    <section className="welcome-cont" id="welcome">Welcome</section>
   )
 }
 
