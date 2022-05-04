@@ -71,7 +71,26 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   margin: 7px 0;
+  transition: transform .3s;
+}
+.skill-tile:hover {
+  transform: scale(1.2);
+}
+.skill-icon-cont {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.skill-icon {
+  height: 2em;
+}
+.skill-span {
+  font-size: larger;
+}
+.skill-title {
+  margin-top: 3px;
 }
 
 /************/

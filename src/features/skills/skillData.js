@@ -1,6 +1,7 @@
 import { DiHtml5, DiCss3Full, DiJsBadge, DiReact, DiGit, DiGithubBadge, DiNpm, DiHeroku, DiLinux } from "react-icons/di";
 import { SiRedux, SiExpress, SiMongodb, SiJest, SiFirebase, SiWebpack } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import mongoose from "../../images/mongoose-icon.png"
 
 export const frontendSkills = [
   { title: "HTML5", icon: <DiHtml5 />, id: 0 },
@@ -12,9 +13,9 @@ export const frontendSkills = [
 export const backendSkills = [
   { title: "NodeJS", icon: <FaNodeJs />, id: 0 },
   { title: "Express", icon: <SiExpress />, id: 1 },
-  { title: "ejs", icon: "", id: 2 },
+  { title: "ejs", icon: "<% %>", id: 2 },
   { title: "MongoDB", icon: <SiMongodb />, id: 3 },
-  { title: "Mongoose", icon: "", id: 4 },
+  { title: "Mongoose", icon: <img src={mongoose} alt="mongoose-icon" className="skill-icon"/>, id: 4 },
 ];
 export const otherSkills = [
   { title: "Git", icon: <DiGit />, id: 0 },
