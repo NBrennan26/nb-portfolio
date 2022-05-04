@@ -1,8 +1,12 @@
+import { IconContext } from "react-icons";
+
 function SkillTile({ skill }) {
   return (
     <div className="skill-tile">
-      <p>{skill.title}</p>
-      <p>{skill.icon}</p>
+      <IconContext.Provider value={{ size: "2em" }}>
+        <p>{skill.icon}</p>
+        <p>{skill.title}</p>
+      </IconContext.Provider>
     </div>
   );
 }

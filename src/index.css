@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Shadows+Into+Light&display=swap");
+
 section {
   scroll-margin-top: 10vh;
   height: 60vh;
@@ -40,21 +42,36 @@ section {
   border: 2px solid black;
   display: grid;
   grid-template-columns: auto auto auto;
+  justify-items: center;
+  font-family: "Bebas Neue", cursive;
 }
 .skill-block {
   display: flex;
   flex-direction: column;
-
+  margin: 2vh;
+  width: 27vw;
+  max-width: 400px;
+  max-height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5%;
 }
 .skill-block-title {
   font-weight: 700;
+  align-self: center;
+  margin: 10px 0;
+  font-size: larger;
 }
 .skill-block-cont {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .skill-tile {
-  border: 2px solid blue;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 7px 0;
 }
 
 /************/
