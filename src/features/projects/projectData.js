@@ -1,3 +1,5 @@
+import placeholder from "../../images/placeholder-image.jpeg"
+
 export const projects = [
   {
     title: "Blog",
@@ -5,7 +7,7 @@ export const projects = [
     description: "Simple Full Stack Blog Site",
     link: "https://nbrennanblog.herokuapp.com/",
     github: "https://github.com/NBrennan26/blog-api",
-    photo: ""
+    photo: placeholder
   },
   {
     title: "Workout Log",
@@ -13,7 +15,7 @@ export const projects = [
     description: "Workout Tracker",
     link: "",
     github: "",
-    photo: ""
+    photo: placeholder
   },
   {
     title: "Bar Inventory & Cocktail Builder",
@@ -21,7 +23,7 @@ export const projects = [
     description: "React App that pulls from an API to build your bar and suggest cocktails",
     link: "",
     github: "https://github.com/NBrennan26/cocktail-builder",
-    photo: ""
+    photo: placeholder
   },
   {
     title: "Games",
@@ -29,6 +31,6 @@ export const projects = [
     description: "A compilation of a few games I've made in the past year",
     link: "",
     github: "",
-    photo: ""
+    photo: placeholder
   },
 ]
