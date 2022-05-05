@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap");
 
 section {
   scroll-margin-top: 10vh;
@@ -29,12 +29,23 @@ section {
   align-items: center;
   font-family: "Bangers", cursive;
   font-size: 4em;
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.welcome-cont :nth-child(2) {
+  font-size: 0.8em;
 }
 
 /*********/
 /* About */
 /*********/
 .about-cont {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15vw;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 2em;
 }
 
 /*****************/
@@ -190,11 +201,14 @@ section {
 /**********/
 .footer-cont {
   position: fixed;
-  bottom: 0;
+  bottom: 5px;
   right: 0;
 }
 .footer-icon {
   height: 3vh;
   min-height: 15px;
   margin-right: 1vh;
+}
+.footer-icon:hover {
+  transform: scale(1.5);
 }

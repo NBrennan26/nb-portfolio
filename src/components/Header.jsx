@@ -5,9 +5,9 @@ function Header() {
         <li className="header-item">
           <a href="#home">Home</a>
         </li>
-        <li className="header-item">
+        {/* <li className="header-item">
           <a href="#welcome">Welcome</a>
-        </li>
+        </li> */}
         <li className="header-item">
           <a href="#about">About</a>
         </li>
