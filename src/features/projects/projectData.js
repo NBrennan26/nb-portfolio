@@ -1,13 +1,14 @@
 import placeholder from "../../images/placeholder-image.jpeg"
+import blog from "../../images/blog-website-sample.png"
 
 export const projects = [
   {
     title: "Blog",
     id: 0,
-    description: "Simple Full Stack Blog Site",
+    description: "Full Stack Blog - Express, Mongoose, React, Redux, User authorization and authentication",
     link: "https://nbrennanblog.herokuapp.com/",
     github: "https://github.com/NBrennan26/blog-api",
-    photo: placeholder
+    photo: blog
   },
   {
     title: "Workout Log",
