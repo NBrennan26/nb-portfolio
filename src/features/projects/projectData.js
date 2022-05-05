@@ -1,5 +1,6 @@
 import placeholder from "../../images/placeholder-image.jpeg"
 import blog from "../../images/blog-website-sample.png"
+import cocktail from "../../images/cocktail-website-sample.png"
 
 export const projects = [
   {
@@ -19,12 +20,12 @@ export const projects = [
     photo: placeholder
   },
   {
-    title: "Bar Inventory & Cocktail Builder",
+    title: "Cocktail Assistant",
     id: 2,
-    description: "React App that pulls from an API to build your bar and suggest cocktails",
-    link: "",
+    description: "React App hosted on Firebase - Select the ingredients you have and see what cocktails you can make",
+    link: "https://cocktailbuilder-112fc.web.app/",
     github: "https://github.com/NBrennan26/cocktail-builder",
-    photo: placeholder
+    photo: cocktail
   },
   {
     title: "Games",
