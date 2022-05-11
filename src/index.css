@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
   scroll-margin-top: 10vh;
   height: 60vh;
@@ -35,6 +39,12 @@ section {
 }
 .welcome-cont :nth-child(2) {
   font-size: 0.8em;
+}
+.fancy-text {
+  background: #26170c url(./images/generic-scenery.jpeg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 /*********/
