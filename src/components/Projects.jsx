@@ -6,7 +6,7 @@ function Projects() {
     <>
       <div className="section-title">
         <span>Projects</span>
-      </div>{" "}
+      </div>
       <section className="projects-cont" id="projects">
         {projects.map((project) => (
           <ProjectTile key={project.id} project={project} />

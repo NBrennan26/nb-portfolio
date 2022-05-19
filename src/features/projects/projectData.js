@@ -12,14 +12,14 @@ export const projects = [
     github: "https://github.com/NBrennan26/blog-api",
     photo: blog
   },
-  {
-    title: "Workout Log",
-    id: 1,
-    description: "Workout Tracker",
-    link: "",
-    github: "",
-    photo: placeholder
-  },
+  // {
+  //   title: "Workout Log",
+  //   id: 1,
+  //   description: "Workout Tracker",
+  //   link: "",
+  //   github: "",
+  //   photo: placeholder
+  // },
   {
     title: "Cocktail Assistant",
     id: 2,
