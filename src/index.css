@@ -56,12 +56,14 @@ section {
   font-size: 0.8em;
 }
 .fancy-text {
-  background: #26170c url(./images/generic-scenery.jpeg);
-  background-size: 100%;
+  background: #26170c url(./images/abstract-wallpaper.jpeg);
+  background-size: 100%;  
   background-clip: text;
+  background-position: -70px;
   -webkit-background-clip: text;
   color: transparent;
   text-align: center;
+
 }
 
 /*********/
@@ -251,4 +253,15 @@ section {
 }
 .footer-icon:hover {
   transform: scale(1.5);
+}
+
+/****************/
+/* MEDIA: 1024+ */
+/****************/
+
+@media screen and (min-width: 1024px) {
+  .fancy-text {
+    background-size: 120%;
+  }
+  
 }
