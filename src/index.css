@@ -32,7 +32,7 @@ section {
 }
 .header-item a {
   color: var(--text-color);
-  font-size: 120%;
+  font-size: 130%;
 }
 
 .header-item:hover {
@@ -76,8 +76,17 @@ section {
   font-family: var(--main-font);
   font-size: 2em;
 }
-.about-fun-facts {
-  margin-top: 1vh;
+.about-section {
+  margin-bottom: 1em;
+}
+.about-section-title {
+  margin-bottom: 0.3em;
+  font-family: var(--title-font);
+}
+.about-section li {
+  margin-bottom: 0.2em;
+  list-style: disc;
+  list-style-position: inside;
 }
 
 /*****************/
@@ -253,7 +262,7 @@ section {
 .footer-cont {
   position: fixed;
   bottom: 5px;
-  right: 0;
+  right: 5px;
 }
 .footer-icon {
   height: 3vh;
