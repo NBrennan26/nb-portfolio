@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 function Contact() {
@@ -27,12 +27,6 @@ function Contact() {
           <FiMail size={80} />
         </a>
       </div>
-      {/* <div>
-        <a href="" download="NickBrennanResume">
-          <FaFileDownload />
-          Resume
-        </a>
-      </div> */}
     </section>
   );
 }

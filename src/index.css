@@ -14,10 +14,10 @@ html {
   background-color: var(--main-color);
   color: var(--text-color);
 }
-
 section {
   scroll-margin-top: 10vh;
   height: 60vh;
+  max-height: 1200px;
 }
 
 /**********/
@@ -57,13 +57,12 @@ section {
 }
 .fancy-text {
   background: #26170c url(./images/abstract-wallpaper.jpeg);
-  background-size: 100%;  
+  background-size: 100%;
   background-clip: text;
   background-position: -70px;
   -webkit-background-clip: text;
   color: transparent;
   text-align: center;
-
 }
 
 /*********/
@@ -72,9 +71,13 @@ section {
 .about-cont {
   display: flex;
   flex-direction: column;
-  margin-left: 15vw;
+  margin: auto;
+  padding: 0 5vw;
   font-family: var(--main-font);
   font-size: 2em;
+}
+.about-fun-facts {
+  margin-top: 1vh;
 }
 
 /*****************/
@@ -171,6 +174,9 @@ section {
   font-family: var(--header-font);
   font-size: 130%;
 }
+.project-tile:hover {
+  transform: scale(1.05);
+}
 .project-tile a {
   color: blue;
   font-style: italic;
@@ -212,6 +218,10 @@ section {
 }
 .project-links-cont a {
   color: var(--text-color);
+}
+.project-links-cont a:hover {
+  color: var(--text-color);
+  box-shadow: var(--text-color) 0px 1px 0px;
 }
 
 /***********/
@@ -258,10 +268,8 @@ section {
 /****************/
 /* MEDIA: 1024+ */
 /****************/
-
 @media screen and (min-width: 1024px) {
   .fancy-text {
     background-size: 120%;
   }
-  
 }

@@ -8,9 +8,9 @@ import {
 function Skills() {
   return (
     <>
-    <div className="section-title">
-      <span>Skills</span>
-    </div>
+      <div className="section-title">
+        <span>Skills</span>
+      </div>
       <section className="skills-cont" id="skills">
         <div className="skill-block">
           <span className="skill-block-title">Front-End Skills</span>
