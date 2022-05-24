@@ -282,3 +282,63 @@ section {
     background-size: 120%;
   }
 }
+
+/****************/
+/* MEDIA: < 770 */
+/****************/
+@media screen and (max-width: 770px) {
+  section {
+    height: fit-content;
+  }
+
+  /**********/
+  /* Header */
+  /**********/
+  .header-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-item a {
+    font-size: 100%;
+  }
+
+  /***********/
+  /* Welcome */
+  /***********/
+  .welcome-cont {
+    font-size: 2.5em;
+    margin: 20vw 0;
+  }
+
+  /*********/
+  /* About */
+  /*********/
+  .about-cont {
+    font-size: 1.5em;
+    height: fit-content;
+    margin-bottom: 5vh;
+  }
+
+  /**********/
+  /* Skills */
+  /**********/
+  .skills-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+  }
+  .skill-block {
+    width: 90%;
+  }
+
+  /************/
+  /* Projects */
+  /************/
+  .project-tile {
+    width: 90%;
+    min-width: 200px;
+    font-size: 4vw;
+  }
+}
