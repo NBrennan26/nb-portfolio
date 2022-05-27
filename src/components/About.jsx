@@ -22,6 +22,18 @@ function About() {
           countries.
         </li>
       </ul>
+      <div className="resume-link-cont">
+        <span className="resume-text">Interested in learning more? </span>
+        <span>Find my </span>
+        <a
+          href="https://docs.google.com/document/d/1V53NGOU9sshmuPRwjP1SlpOKQ-Q4qcYeRhPyeKy17wU/edit?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+          className="resume-link"
+        >
+          R&eacute;sum&eacute; here
+        </a>
+      </div>
     </section>
   );
 }

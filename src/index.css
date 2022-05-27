@@ -88,6 +88,13 @@ section {
   list-style: disc;
   list-style-position: inside;
 }
+.resume-text {
+  font-weight: bold;
+}
+.resume-link {
+  color: var(--text-color);
+  text-decoration: underline;
+}
 
 /*****************/
 /* Section Title */
