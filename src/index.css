@@ -75,6 +75,7 @@ section {
   padding: 0 5vw;
   font-family: var(--main-font);
   font-size: 2em;
+  height: fit-content;
 }
 .about-section {
   margin-bottom: 1em;
@@ -87,6 +88,13 @@ section {
   margin-bottom: 0.2em;
   list-style: disc;
   list-style-position: inside;
+}
+.about-currently-learning {
+  margin-bottom: 1em;
+  font-family: var(--title-font);
+}
+.resume-link-cont {
+  padding-bottom: 2em;
 }
 .resume-text {
   font-weight: bold;

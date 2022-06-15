@@ -1,3 +1,5 @@
+import { DiRuby } from "react-icons/di";
+
 function About() {
   return (
     <section className="about-cont" id="about">
@@ -22,6 +24,9 @@ function About() {
           countries.
         </li>
       </ul>
+      <div className="about-currently-learning">
+        Currently Learning: Ruby <DiRuby size={25} />
+      </div>
       <div className="resume-link-cont">
         <span className="resume-text">Interested in learning more? </span>
         <span>Find my </span>
